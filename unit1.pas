@@ -59,7 +59,7 @@ procedure TForm1.FormCreate(Sender: TObject);
 begin
 
   Score.Caption:='SCORE:0000';
-  PlaySound('assets/bgm2.wav');
+  PlaySound('assets/bgm.wav');
   // Load the background image
     BackgroundImage1 := TImage.Create(Self);
     BackgroundImage1.Parent := Self;
